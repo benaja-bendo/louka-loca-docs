@@ -3,20 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Louka-Loca Documentation',
+  tagline: 'Documentation complète pour le projet Louka-Loca',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'http://technostrea.hd.free.fr:8888',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'technostrea', // Usually your GitHub org/user name.
+  projectName: 'louka-loca-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -66,12 +66,15 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Louka-Loca',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo du projet',
         src: 'img/logo.svg',
       },
       items: [
+        { to: 'docs/api', label: 'API', position: 'left' },
+        { to: 'docs/installation', label: 'Guide', position: 'left' },
+        { to: 'docs/usage', label: 'Utilisation', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -96,22 +99,26 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/intro',
             },
+            {
+              label: 'API',
+              to: '/docs/api',
+            },
+            {
+              label: 'Guide',
+              to: '/docs/installation',
+            },
+            {
+              label: 'Utilisation',
+              to: '/docs/usage',
+            }
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -129,7 +136,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Louka-Loca.`,
     },
     prism: {
       theme: prismThemes.github,
