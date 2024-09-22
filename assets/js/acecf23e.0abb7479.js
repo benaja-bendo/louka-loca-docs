@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklouka_loca_docs=self.webpackChunklouka_loca_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/louka-loca-docs/blog","blogTitle":"Blog","authorsListPath":"/louka-loca-docs/blog/authors"}')}}]);

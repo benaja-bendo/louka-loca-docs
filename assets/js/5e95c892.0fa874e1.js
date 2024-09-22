@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklouka_loca_docs=self.webpackChunklouka_loca_docs||[]).push([[9647],{7121:(e,s,a)=>{a.r(s),a.d(s,{default:()=>n});a(6540);var c=a(4164),r=a(1213),u=a(7559),l=a(2831),o=a(781),d=a(4848);function n(e){return(0,d.jsx)(r.e3,{className:(0,c.A)(u.G.wrapper.docsPages),children:(0,d.jsx)(o.A,{children:(0,l.v)(e.route.routes)})})}}}]);

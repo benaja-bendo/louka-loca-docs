@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklouka_loca_docs=self.webpackChunklouka_loca_docs||[]).push([[8106],{3494:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/louka-loca-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
