@@ -6,16 +6,12 @@ const config: Config = {
   title: 'Louka-Loca Documentation',
   tagline: 'Documentation complète pour le projet Louka-Loca',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
   url: 'http://technostrea.hd.free.fr:8888',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/louka-loca-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'technostrea', // Usually your GitHub org/user name.
+  organizationName: 'benaja-bendo', // Usually your GitHub org/user name.
   projectName: 'louka-loca-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -72,9 +68,9 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: 'docs/api', label: 'API', position: 'left' },
-        { to: 'docs/installation', label: 'Guide', position: 'left' },
-        { to: 'docs/usage', label: 'Utilisation', position: 'left' },
+        // { to: 'docs/api', label: 'API', position: 'left' },
+        // { to: 'docs/installation', label: 'Guide', position: 'left' },
+        // { to: 'docs/usage', label: 'Utilisation', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
@@ -99,18 +95,18 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/intro',
             },
-            {
-              label: 'API',
-              to: '/docs/api',
-            },
-            {
-              label: 'Guide',
-              to: '/docs/installation',
-            },
-            {
-              label: 'Utilisation',
-              to: '/docs/usage',
-            }
+            // {
+            //   label: 'API',
+            //   to: '/docs/api',
+            // },
+            // {
+            //   label: 'Guide',
+            //   to: '/docs/installation',
+            // },
+            // {
+            //   label: 'Utilisation',
+            //   to: '/docs/usage',
+            // }
           ],
         },
         {
@@ -118,7 +114,7 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/gSbdrBDB',
             },
           ],
         },
@@ -131,7 +127,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com',
             },
           ],
         },
